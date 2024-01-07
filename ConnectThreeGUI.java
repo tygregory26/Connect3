@@ -47,13 +47,13 @@ public class ConnectThreeGUI extends JFrame {
 
 		if (player1Name == null || player1Name.isEmpty()) {
 			JOptionPane.showMessageDialog(this, "Player 1's name cannot be empty. Please enter a name.");
-			initializePlayers(); // Recursive call to prompt for the name again
+			initializePlayers();
 			return;
 		}
 
 		if (player2Name == null || player2Name.isEmpty()) {
 			JOptionPane.showMessageDialog(this, "Player 2's name cannot be empty. Please enter a name.");
-			initializePlayers(); // Recursive call to prompt for the name again
+			initializePlayers();
 			return;
 		}
 
